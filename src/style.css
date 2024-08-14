@@ -1,0 +1,32 @@
+::-webkit-scrollbar {
+    height: .1rem;
+    width: .5rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(200, 200, 218);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #139fd6;
+    border-radius: 5rem;
+}
+.button{
+    border: 1px solid #E76F1F;
+    background: none;
+    transition: all 0.5s ease;
+}
+.nav{
+    backdrop-filter: blur(15px);
+}
+
+.button-bg{
+    background: linear-gradient(270.00deg, rgb(255, 0, 0) 0%,rgb(255, 137, 56) 100%);
+}
+
+@media (prefers-color-scheme: dark) {
+    .liner{
+        background: linear-gradient(225deg, hsla(222, 47%, 11%, 1) 0%, hsla(209, 56%, 19%, 1) 42%, hsla(209, 56%, 19%, 1) 55%, hsla(209, 56%, 19%, 1) 64%, hsla(222, 47%, 11%, 1) 82%);
+    }
+    
+}
