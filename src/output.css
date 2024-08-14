@@ -573,6 +573,37 @@ html{
   }
 }
 
+.heading {
+  text-align: center;
+  font-size: 2.813rem;
+  font-weight: 800;
+  --tw-text-opacity: 1;
+  color: rgb(28 28 28 / var(--tw-text-opacity));
+}
+
+@media (prefers-color-scheme: dark) {
+  .heading {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+}
+
+.paragraph {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  --tw-text-opacity: 1;
+  color: rgb(119 119 119 / var(--tw-text-opacity));
+}
+
+@media (prefers-color-scheme: dark) {
+  .paragraph {
+    --tw-text-opacity: 1;
+    color: rgb(229 231 235 / var(--tw-text-opacity));
+  }
+}
+
 .absolute {
   position: absolute;
 }
@@ -610,6 +641,26 @@ html{
   margin-top: -6rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
+.mb-32 {
+  margin-bottom: 8rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -622,9 +673,12 @@ html{
   height: 6rem;
 }
 
-.max-h-max {
-  max-height: -moz-max-content;
-  max-height: max-content;
+.h-\[391px\] {
+  height: 391px;
+}
+
+.h-\[212px\] {
+  height: 212px;
 }
 
 .w-64 {
@@ -651,12 +705,36 @@ html{
   width: 100%;
 }
 
+.w-11\/12 {
+  width: 91.666667%;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[90\] {
+  width: 90;
+}
+
+.w-\[267px\] {
+  width: 267px;
+}
+
+.w-\[135px\] {
+  width: 135px;
+}
+
 .max-w-\[90rem\] {
   max-width: 90rem;
 }
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -687,6 +765,22 @@ html{
   gap: 2.25rem;
 }
 
+.gap-\[24px\] {
+  gap: 24px;
+}
+
+.gap-\[30px\] {
+  gap: 30px;
+}
+
+.gap-\[50px\] {
+  gap: 50px;
+}
+
+.gap-\[20px\] {
+  gap: 20px;
+}
+
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
@@ -695,6 +789,10 @@ html{
 
 .scroll-smooth {
   scroll-behavior: smooth;
+}
+
+.text-balance {
+  text-wrap: balance;
 }
 
 .rounded-md {
@@ -712,6 +810,22 @@ html{
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-7 {
+  padding: 1.75rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .px-5 {
@@ -779,6 +893,11 @@ html{
   line-height: 1.75rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-extrabold {
   font-weight: 800;
 }
@@ -802,24 +921,24 @@ html{
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
+}
+
 .shadow-\[0_7px_50px_0px_rgba\(0\2c 0\2c 0\2c 0\.06\)\] {
   --tw-shadow: 0 7px 50px 0px rgba(0,0,0,0.06);
   --tw-shadow-colored: 0 7px 50px 0px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.backdrop\:blur-\[20px\]::backdrop {
-  --tw-blur: blur(20px);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
 @media not all and (min-width: 640px) {
   .max-sm\:hidden {
     display: none;
-  }
-
-  .max-sm\:w-5\/6 {
-    width: 83.333333%;
   }
 
   .max-sm\:w-full {
