@@ -1,8 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@layer base{
-    html{
+
+@layer base {
+    html {
         font-family: "Manrope", sans-serif;
     }
 }
@@ -11,10 +12,12 @@
     .nav {
         @apply text-black text-base font-medium dark:text-white;
     }
-    .heading{
+
+    .heading {
         @apply text-[#1C1C1C] text-[2.813rem] font-extrabold dark:text-white text-center;
     }
-    .paragraph{
+
+    .paragraph {
         @apply text-[#777777] text-base font-medium text-center dark:text-gray-200;
     }
 }
